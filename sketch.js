@@ -43,7 +43,8 @@ function setup(){
 
 function draw(){
 
-    background(backgroundImg);   
+    background(backgroundImg);  
+    textSize(25) 
      text(mouseX + ',' + mouseY, 30, 45);
 
 
